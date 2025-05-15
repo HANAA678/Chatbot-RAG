@@ -1,0 +1,15 @@
+INTELCIA - RAPPORT INTERNE
+
+Titre : Suivi des indicateurs Data Analytics – Q4 2023
+
+Indicateurs suivis :
+- Temps moyen de réponse aux requêtes métiers : 6h
+- Taux de disponibilité des dashboards : 99.4%
+- Nombre de dashboards actifs : 87
+- Taux d’utilisation par service :
+   • RH : 45%
+   • Commercial : 27%
+   • Direction Générale : 12%
+
+Manager responsable : Amine Ziani  
+Analyste principal : Hajar El Bouhali  

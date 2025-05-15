@@ -1,0 +1,150 @@
+/* Importation des polices */
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Merriweather:wght@300;400;700&display=swap');
+
+.redressed{
+ font-family: 'Redressed',cursive;
+}
+.merriweather{
+    font-family: 'Merriweather', serif;
+}
+/* Style de la barre de navigation */
+.cc-navbar {
+    background-color: rgba(0, 0, 0, 0.322);
+    font-family: "Merriweather", serif;
+    box-shadow: 1px 1px 3px rgb(255, 255, 255);
+    z-index: 99;
+    color: var(--bs-pink);
+    color: white;
+}
+
+/* Style des liens de la barre de navigation */
+.cc-navbar .nav-link {
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+    color: white;
+}
+
+/* Style au survol des liens de la barre de navigation */
+.cc-navbar .nav-link:hover {
+    padding-bottom: 20px;
+    border-bottom-color: var(--bs-teal);
+    color: white;
+}
+.banner{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../img/intelcia.jpg') center center fixed no-repeat;
+    height: 800px;
+    background-size: cover;
+
+
+}
+.banner .banner-desc {
+    font-size: 48px;
+    font-weight: 400;
+    color: #fff;
+
+}
+.cc-menu{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../img/menu2.jpg') center center fixed no-repeat;
+height: 1200px;
+background-size: cover;
+}
+/* Style des boutons de commande */
+.btn-order {
+    color: var(--bs-pink);
+    border-color: var(--bs-pink);
+    transition: 0.5s;
+}
+
+/* Style au survol et lors de l'activation des boutons de commande */
+.btn-order:hover, .btn-order:active {
+    color: #fff;
+    background-color:var(--bs-pink) ;
+}
+.foother h5 {
+    font-family: 'Merriweather', serif;
+    color: #7116a625;
+    font-weight: bold;
+    margin-bottom: 15px;
+    
+  }
+  .merriweather {
+    font-family: 'Merriweather', serif;
+  }
+/* Styliser le titre "Nous Rejoindre" */
+.col .join-us-title {
+  color: #FF007F;  /* Rose */
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 15px;  /* Espace sous le titre */
+}
+
+
+/* Styliser les liens */
+.nav-link {
+  color: #000;  /* Couleur de texte noire */
+  font-size: 18px;
+  font-weight: normal;
+  text-decoration: none;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+/* Modifier la couleur du lien au survol */
+.nav-link:hover {
+  color: #FF007F;  /* Changer la couleur du texte en rose au survol */
+}
+/* Style des titres dans les cartes */
+.card-title {
+  color: #FF007F; /* Rose Intelcia */
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  font-size: 1.5rem; /* 24px */
+  margin-bottom: 15px;
+}
+
+/* Style des paragraphes dans les cartes */
+.card-text {
+  font-family: 'Merriweather', serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #333333;
+  margin-bottom: 15px;
+}
+
+/* Liens "Last updated" dans les cartes */
+.card-text a.btn {
+  font-size: 0.9rem;
+  color: #999999 !important;
+  text-decoration: none;
+}
+
+.card-text a.btn:hover {
+  color: #FF007F !important;
+}
+
+/* Ajout d'une ombre douce sur les cartes */
+.card {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Légère élévation au survol */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+h1, h2, h5 {
+  font-family: 'Cormorant Garamond', serif;
+      font-size: 32px;  /* Ajuste la taille des titres */
+
+}
+p, .card-text {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.05rem;
+  line-height: 1.7;
+      font-size: 20px;  /* Ajuste la taille des paragraphes */
+
+}
+
+

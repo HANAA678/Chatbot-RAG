@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+body {
+  background: url("/static/img/intelcia.jpg") center/cover no-repeat;
+  background-attachment: fixed;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
+  z-index: 1;
+}
+
+.container {
+  position: relative;
+  z-index: 2;
+  background: rgba(255, 245, 225, 0.92);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  padding: 50px 40px;
+  max-width: 420px;
+  width: 100%;
+  text-align: center;
+  animation: fadeIn 1s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.container:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.25);
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5px;
+  width: 100%;
+  background: linear-gradient(to right, #a8c66c, #f4a261);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  background: linear-gradient(to right, #a8c66c, #f4a261);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 14px 18px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.7);
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+.input-field:focus {
+  background: #fff;
+  border-color: #a8c66c;
+  box-shadow: 0 0 0 3px rgba(168, 198, 108, 0.3);
+  outline: none;
+}
+
+.btn {
+  width: 100%;
+  padding: 14px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(to right, #a8c66c, #f4a261);
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(to right, #9dbf5a, #f29449);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    padding: 30px 20px;
+  }
+  h1 {
+    font-size: 1.6rem;
+  }
+}/*# sourceMappingURL=styles.css.map */

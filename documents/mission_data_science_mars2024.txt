@@ -1,0 +1,20 @@
+INTELCIA - MISSION DATA SCIENCE
+
+Titre : Étude prédictive sur les réclamations clients – Mars 2024
+
+Objectif :
+- Analyser les tickets Zendesk pour prédire les cas à escalader.
+- Utiliser BERT pour le traitement du texte (Natural Language Processing).
+
+Responsables :
+- Lead Data Scientist : Laila Khattabi
+- Manager projet : Rachid Khellafi
+
+Méthodologie :
+- Analyse sémantique des tickets.
+- Classification binaire (escalade vs non escalade).
+- F1-score cible : 0.87+
+
+Livrables :
+- Modèle hébergé sur Azure ML Studio.
+- Tableau de bord de pilotage en Power BI.

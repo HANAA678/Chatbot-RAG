@@ -1,0 +1,19 @@
+INTELCIA - NOTE DE PROJET INTERNE
+
+Titre : Amélioration de la qualité des données RH – Projet Q1 2024
+
+Objectif :
+- Identifier les champs critiques manquants dans les bases de données RH.
+- Réduire le taux d’erreurs dans les saisies manuelles via des contrôles automatisés.
+
+Responsables :
+- Chef de projet : Soufiane Naji (Data Analytics)
+- Contact RH : Imane Berrada
+
+Outils :
+- Scripts de validation SQL via dbt.
+- Alertes automatisées Power Automate.
+- Export Excel automatisé des erreurs détectées.
+
+Budget : 120K MAD  
+Échéance : Avril 2024  
