@@ -33,8 +33,11 @@ if not os.path.exists(UPLOAD_FOLDER):
 
 app.secret_key = 'e1fa20f7aae8713701fd7c18fbc72841eb3347742a57ac4d5e8de28bc17293ad'
 
+ # Cette ligne indique où se trouve la base de données.
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///users.db'
+# Désactive un suivi inutile (pour optimiser) Par défaut, SQLAlchemy suit tous les changements sur les objets (modifications dans la mémoire).Ici, tu désactives ce suivi car ce n’est pas nécessaire. Ça économise de la mémoire et évite des avertissements.
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+# Initialise la connexion entre Flask et la base
 db = SQLAlchemy(app)
 
 # Modèle utilisateur
@@ -90,6 +93,8 @@ def login_post():
             flash('Identifiants invalides ou utilisateur non trouvé. Essayez à nouveau.', 'danger')
             return render_template("login.html")
 
+
+
     return render_template("login.html")
 
 # Route register
@@ -104,7 +109,7 @@ def register():
             flash('Veuillez remplir tous les champs pour vous inscrire.', 'danger')
             return render_template("login.html")  # RESTER sur login.html !
 
-        # Vérifie si l'utilisateur existe déjà
+        # Vérifie si l'utilisateur existe déjà dans la base de donnees 
         user = User.query.filter_by(username=username).first()
         if user:
             flash('Nom d\'utilisateur déjà pris!', 'danger')
@@ -244,3 +249,4 @@ Question : {user_message}
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
+    # simuler les commits

@@ -1,0 +1,33 @@
+ZARA - Questions/Reponses Client (Formation Agent)
+
+1. Question : Quels sont les delais de livraison chez Zara ?
+Reponse : Livraison standard : 2 a 5 jours ouvres.
+Livraison en magasin : 1 a 3 jours ouvres.
+Livraison express : 1 a 2 jours ouvres.
+
+2. Question : Puis-je modifier ou annuler ma commande apres validation ?
+Reponse : Une fois la commande validee, il n'est plus possible de la modifier. Elle peut etre annulee uniquement si elle n'est pas encore en preparation.
+
+3. Question : Comment effectuer un retour ?
+Reponse : Vous pouvez effectuer un retour en magasin gratuitement, ou via votre compte Zara en ligne dans les 30 jours suivant l'achat. L'etiquette de retour est fournie dans le colis.
+
+4. Question : Les articles sont-ils rembourses ou echanges ?
+Reponse : Zara propose le remboursement des articles retournes. L'echange est possible uniquement en magasin.
+
+5. Question : Comment suivre ma commande ?
+Reponse : Le suivi est disponible dans votre compte Zara, rubrique "Mes commandes", avec un lien de suivi envoye par mail lors de l'expedition.
+
+6. Question : J'ai recu un article defectueux, que faire ?
+Reponse : Contactez le service client ou rendez-vous en magasin pour un echange ou un remboursement apres verification.
+
+7. Question : Quels sont les moyens de paiement acceptes ?
+Reponse : Zara accepte carte bancaire (Visa, MasterCard), PayPal, Apple Pay et cartes cadeaux Zara.
+
+8. Question : Comment obtenir une facture ?
+Reponse : La facture est disponible dans l'e-mail de confirmation ou dans votre compte client Zara, section "Mes commandes".
+
+9. Question : Puis-je commander depuis l'etranger ?
+Reponse : Oui, mais il faut commander depuis le site ou l'application du pays de livraison.
+
+10. Question : Zara propose-t-elle des cartes cadeaux ?
+Reponse : Oui, disponibles en ligne et en magasin, utilisables pour tout achat Zara.
